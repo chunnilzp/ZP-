@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF691BFA2136478900B3CE0C /* ZPDownLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF691BF92136478900B3CE0C /* ZPDownLoaderManager.m */; };
+		FF7C019221354278008F9CEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C019121354278008F9CEB /* AppDelegate.m */; };
+		FF7C019521354278008F9CEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C019421354278008F9CEB /* ViewController.m */; };
+		FF7C019821354278008F9CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7C019621354278008F9CEB /* Main.storyboard */; };
+		FF7C019A21354279008F9CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7C019921354279008F9CEB /* Assets.xcassets */; };
+		FF7C019D21354279008F9CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7C019B21354279008F9CEB /* LaunchScreen.storyboard */; };
+		FF7C01A021354279008F9CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C019F21354279008F9CEB /* main.m */; };
+		FF7C01AA21354279008F9CEB /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C01A921354279008F9CEB /* _____Tests.m */; };
+		FF7C01B521354279008F9CEB /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C01B421354279008F9CEB /* _____UITests.m */; };
+		FF7C01C421354483008F9CEB /* ZPDownLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C01C321354483008F9CEB /* ZPDownLoad.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF7C01A621354279008F9CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7C018521354278008F9CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7C018C21354278008F9CEB;
+			remoteInfo = "多线程下载";
+		};
+		FF7C01B121354279008F9CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7C018521354278008F9CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7C018C21354278008F9CEB;
+			remoteInfo = "多线程下载";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF691BF82136478900B3CE0C /* ZPDownLoaderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPDownLoaderManager.h; sourceTree = "<group>"; };
+		FF691BF92136478900B3CE0C /* ZPDownLoaderManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPDownLoaderManager.m; sourceTree = "<group>"; };
+		FF7C018D21354278008F9CEB /* 多线程下载.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多线程下载.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7C019021354278008F9CEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF7C019121354278008F9CEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF7C019321354278008F9CEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF7C019421354278008F9CEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF7C019721354278008F9CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF7C019921354279008F9CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF7C019C21354279008F9CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF7C019E21354279008F9CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7C019F21354279008F9CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF7C01A521354279008F9CEB /* 多线程下载Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多线程下载Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7C01A921354279008F9CEB /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		FF7C01AB21354279008F9CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7C01B021354279008F9CEB /* 多线程下载UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多线程下载UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7C01B421354279008F9CEB /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		FF7C01B621354279008F9CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7C01C221354483008F9CEB /* ZPDownLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPDownLoad.h; sourceTree = "<group>"; };
+		FF7C01C321354483008F9CEB /* ZPDownLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPDownLoad.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF7C018A21354278008F9CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7C01A221354279008F9CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7C01AD21354279008F9CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF7C018421354278008F9CEB = {
+			isa = PBXGroup;
+			children = (
+				FF7C018F21354278008F9CEB /* 多线程下载 */,
+				FF7C01A821354279008F9CEB /* 多线程下载Tests */,
+				FF7C01B321354279008F9CEB /* 多线程下载UITests */,
+				FF7C018E21354278008F9CEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7C018E21354278008F9CEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C018D21354278008F9CEB /* 多线程下载.app */,
+				FF7C01A521354279008F9CEB /* 多线程下载Tests.xctest */,
+				FF7C01B021354279008F9CEB /* 多线程下载UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7C018F21354278008F9CEB /* 多线程下载 */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C019021354278008F9CEB /* AppDelegate.h */,
+				FF7C019121354278008F9CEB /* AppDelegate.m */,
+				FF7C019321354278008F9CEB /* ViewController.h */,
+				FF7C019421354278008F9CEB /* ViewController.m */,
+				FF7C01C221354483008F9CEB /* ZPDownLoad.h */,
+				FF7C01C321354483008F9CEB /* ZPDownLoad.m */,
+				FF691BF82136478900B3CE0C /* ZPDownLoaderManager.h */,
+				FF691BF92136478900B3CE0C /* ZPDownLoaderManager.m */,
+				FF7C019621354278008F9CEB /* Main.storyboard */,
+				FF7C019921354279008F9CEB /* Assets.xcassets */,
+				FF7C019B21354279008F9CEB /* LaunchScreen.storyboard */,
+				FF7C019E21354279008F9CEB /* Info.plist */,
+				FF7C019F21354279008F9CEB /* main.m */,
+			);
+			path = "多线程下载";
+			sourceTree = "<group>";
+		};
+		FF7C01A821354279008F9CEB /* 多线程下载Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C01A921354279008F9CEB /* _____Tests.m */,
+				FF7C01AB21354279008F9CEB /* Info.plist */,
+			);
+			path = "多线程下载Tests";
+			sourceTree = "<group>";
+		};
+		FF7C01B321354279008F9CEB /* 多线程下载UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C01B421354279008F9CEB /* _____UITests.m */,
+				FF7C01B621354279008F9CEB /* Info.plist */,
+			);
+			path = "多线程下载UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF7C018C21354278008F9CEB /* 多线程下载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7C01B921354279008F9CEB /* Build configuration list for PBXNativeTarget "多线程下载" */;
+			buildPhases = (
+				FF7C018921354278008F9CEB /* Sources */,
+				FF7C018A21354278008F9CEB /* Frameworks */,
+				FF7C018B21354278008F9CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多线程下载";
+			productName = "多线程下载";
+			productReference = FF7C018D21354278008F9CEB /* 多线程下载.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF7C01A421354279008F9CEB /* 多线程下载Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7C01BC21354279008F9CEB /* Build configuration list for PBXNativeTarget "多线程下载Tests" */;
+			buildPhases = (
+				FF7C01A121354279008F9CEB /* Sources */,
+				FF7C01A221354279008F9CEB /* Frameworks */,
+				FF7C01A321354279008F9CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7C01A721354279008F9CEB /* PBXTargetDependency */,
+			);
+			name = "多线程下载Tests";
+			productName = "多线程下载Tests";
+			productReference = FF7C01A521354279008F9CEB /* 多线程下载Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF7C01AF21354279008F9CEB /* 多线程下载UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7C01BF21354279008F9CEB /* Build configuration list for PBXNativeTarget "多线程下载UITests" */;
+			buildPhases = (
+				FF7C01AC21354279008F9CEB /* Sources */,
+				FF7C01AD21354279008F9CEB /* Frameworks */,
+				FF7C01AE21354279008F9CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7C01B221354279008F9CEB /* PBXTargetDependency */,
+			);
+			name = "多线程下载UITests";
+			productName = "多线程下载UITests";
+			productReference = FF7C01B021354279008F9CEB /* 多线程下载UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7C018521354278008F9CEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "李泽平";
+				TargetAttributes = {
+					FF7C018C21354278008F9CEB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FF7C01A421354279008F9CEB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FF7C018C21354278008F9CEB;
+					};
+					FF7C01AF21354279008F9CEB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FF7C018C21354278008F9CEB;
+					};
+				};
+			};
+			buildConfigurationList = FF7C018821354278008F9CEB /* Build configuration list for PBXProject "多线程下载" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF7C018421354278008F9CEB;
+			productRefGroup = FF7C018E21354278008F9CEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7C018C21354278008F9CEB /* 多线程下载 */,
+				FF7C01A421354279008F9CEB /* 多线程下载Tests */,
+				FF7C01AF21354279008F9CEB /* 多线程下载UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF7C018B21354278008F9CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7C019D21354279008F9CEB /* LaunchScreen.storyboard in Resources */,
+				FF7C019A21354279008F9CEB /* Assets.xcassets in Resources */,
+				FF7C019821354278008F9CEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7C01A321354279008F9CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7C01AE21354279008F9CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7C018921354278008F9CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF691BFA2136478900B3CE0C /* ZPDownLoaderManager.m in Sources */,
+				FF7C019521354278008F9CEB /* ViewController.m in Sources */,
+				FF7C01C421354483008F9CEB /* ZPDownLoad.m in Sources */,
+				FF7C01A021354279008F9CEB /* main.m in Sources */,
+				FF7C019221354278008F9CEB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7C01A121354279008F9CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7C01AA21354279008F9CEB /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7C01AC21354279008F9CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7C01B521354279008F9CEB /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF7C01A721354279008F9CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7C018C21354278008F9CEB /* 多线程下载 */;
+			targetProxy = FF7C01A621354279008F9CEB /* PBXContainerItemProxy */;
+		};
+		FF7C01B221354279008F9CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7C018C21354278008F9CEB /* 多线程下载 */;
+			targetProxy = FF7C01B121354279008F9CEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF7C019621354278008F9CEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7C019721354278008F9CEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF7C019B21354279008F9CEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7C019C21354279008F9CEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF7C01B721354279008F9CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF7C01B821354279008F9CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF7C01BA21354279008F9CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "多线程下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VueDemol.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF7C01BB21354279008F9CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "多线程下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VueDemol.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF7C01BD21354279008F9CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "多线程下载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VueDemol.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多线程下载.app/多线程下载";
+			};
+			name = Debug;
+		};
+		FF7C01BE21354279008F9CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "多线程下载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VueDemol.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多线程下载.app/多线程下载";
+			};
+			name = Release;
+		};
+		FF7C01C021354279008F9CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "多线程下载UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VueDemol.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "多线程下载";
+			};
+			name = Debug;
+		};
+		FF7C01C121354279008F9CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "多线程下载UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VueDemol.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "多线程下载";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF7C018821354278008F9CEB /* Build configuration list for PBXProject "多线程下载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7C01B721354279008F9CEB /* Debug */,
+				FF7C01B821354279008F9CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7C01B921354279008F9CEB /* Build configuration list for PBXNativeTarget "多线程下载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7C01BA21354279008F9CEB /* Debug */,
+				FF7C01BB21354279008F9CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7C01BC21354279008F9CEB /* Build configuration list for PBXNativeTarget "多线程下载Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7C01BD21354279008F9CEB /* Debug */,
+				FF7C01BE21354279008F9CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7C01BF21354279008F9CEB /* Build configuration list for PBXNativeTarget "多线程下载UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7C01C021354279008F9CEB /* Debug */,
+				FF7C01C121354279008F9CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7C018521354278008F9CEB /* Project object */;
+}
